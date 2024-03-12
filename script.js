@@ -1,10 +1,10 @@
 
 selectPlan = (planNumber) => {  
 
-    const vyber = document.getElementById(`plan${planNumber}`);
-    let div1 = document.getElementById("plan1")
-    let div2 = document.getElementById("plan2")
-    let div3 = document.getElementById("plan3")
+    let vyber = document.getElementById(`plan${planNumber}`);
+    let div1 = document.getElementById('plan1')
+    let div2 = document.getElementById('plan2')
+    let div3 = document.getElementById('plan3')
 
     if(planNumber === 1){
         vyber.classList.add('plan--selected');
@@ -26,5 +26,5 @@ selectPlan = (planNumber) => {
     }
 }
 
-selectPlan(3);
+selectPlan(1);
   
